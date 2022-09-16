@@ -116,7 +116,7 @@ void register({
           'gradeId':gradeId,
         }
     ).then((value) {
-      token=value.data['data']['accessToken'];
+      token='785394983475893jhjhhflyr';
       SharedCache.saveData(key: 'token', value: token);
       userData=UserData.fromJson(value.data['data']);
       emit(RegisterSuccessState());
